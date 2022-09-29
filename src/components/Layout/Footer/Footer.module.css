@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--purple);
+  flex: 1;
+  gap: 3rem;
+  padding-bottom: 3rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: white;
+  font-weight: 200;
+  font-family: var(--alternate-font);
+}
+
+/* SOCIAL CSS */
+
+.social {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  color: white;
+  font-size: 30px;
+  padding: 1rem;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.envelope:hover {
+  color: var(--light-green);
+}
+
+.facebook:hover {
+  color: #1774eb;
+}
+.github:hover {
+  color: #f6a102;
+}
+.linkedin:hover {
+  color: #2664ad;
+}
+
+/* DISClAIMER */
+
+.disclaimer {
+  color: white;
+  font-weight: 100;
+  font-family: var(--alternate-font);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem 0 3rem 0;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .disclaimer {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,19 @@
+.root {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.text {
+  position: absolute;
+  top: 10;
+  left: 10;
+}
+
+.text-style {
+  color: orange;
+  font-weight: bolder;
+  font-size: 2rem;
+}
