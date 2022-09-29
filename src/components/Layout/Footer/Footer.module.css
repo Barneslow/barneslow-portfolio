@@ -26,6 +26,9 @@
 .social {
   display: flex;
   gap: 1rem;
+  background-color: var(--dark-purple);
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 25px;
 }
 
 .icon {

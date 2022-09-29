@@ -6,14 +6,14 @@ const Project = ({ project }) => {
   return (
     <div className={styles.container}>
       <div className={styles.root}>
-        <img className={styles.image} src={image} />
+        <img
+          className={styles.image}
+          src={project.image === "null" ? image : project.image}
+        />
         <div className={styles.overlay}>
           <div className={styles["text-container"]}>
-            <p className={styles.text}>
-              High-end, custom residential renovaters serving Fraser Valley
-              homeowners.
-            </p>
-            <OutlineButton>Visit Site</OutlineButton>
+            <p className={styles.text}>{project.description}</p>
+            <OutlineButton url={project.url}>Visit Site</OutlineButton>
           </div>
         </div>
       </div>

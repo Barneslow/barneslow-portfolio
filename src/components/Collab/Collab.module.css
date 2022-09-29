@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  box-shadow: var(--darker-box-shadow);
+  border: 2px solid rgb(0, 0, 0, 0.1);
 }
 
 .text-container {
